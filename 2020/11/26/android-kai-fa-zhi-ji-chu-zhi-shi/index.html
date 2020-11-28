@@ -368,8 +368,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%AE%89%E5%8D%93%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80/">
-                                <span class="chip bg-color">安卓开发基础</span>
+                            <a href="/tags/Android%E5%9F%BA%E7%A1%80/">
+                                <span class="chip bg-color">Android基础</span>
                             </a>
                         
                     </div>
@@ -380,8 +380,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%AE%89%E5%8D%93%E5%BC%80%E5%8F%91/" class="post-category">
-                                安卓开发
+                            <a href="/categories/Android%E5%BC%80%E5%8F%91/" class="post-category">
+                                Android开发
                             </a>
                         
                     </div>
@@ -417,7 +417,7 @@
 <h4 id="2-1-4-应用层"><a href="#2-1-4-应用层" class="headerlink" title="2.1.4    应用层"></a>2.1.4    应用层</h4><p>​        所有在手机上安装的应用程序都是属于这一层的，比如系统自带的联系人，短信等程序，或者是从应用商店下载的手机App，当然，也包括你自己开发的程序。我们学习Android开发也是学习Android应用层的开发。</p>
 <h3 id="2-2-Android版本"><a href="#2-2-Android版本" class="headerlink" title="2.2    Android版本"></a>2.2    Android版本</h3><p>​        2008年9月，谷歌正式发布了Android 1.0系统，这也是Android系统最早的版本。从2008到现在2020已经发布了11个版本，目前最新的是Android 11系统。关于Android版本的历史我们在这里不做过多的描述，有兴趣的同学可以去谷歌去搜索。</p>
 <h3 id="2-3-传说中Android的四大组件"><a href="#2-3-传说中Android的四大组件" class="headerlink" title="2.3    传说中Android的四大组件"></a>2.3    传说中Android的四大组件</h3><p>在学习Android之前，肯定听说过Android四大组件，想学好Android开发，必须要学好四大组件。Android系统的四大组件分别是活动（Activity）、服务（Service）、广播接收器（Broadcast Receiver）、内容提供器（Content Provider）。不要急，在后面的学习中我们会慢慢的去学习它。</p>
-<h2 id="3-开发工具"><a href="#3-开发工具" class="headerlink" title="3.开发工具"></a>3.开发工具</h2><p>​        工欲善必其事，必先利其器，学习Android开发必须要一款好的开发工具，这里我们将使用谷歌官方推荐的IDE工具Android Studio。据我所知，国内Android开发工程师大多使用Idea或者Android Studio，Android本身就算基于Idea开发的工具，但不同的是Idea功能更强大，但也收费。而Android Studio是完全免费，大家不用担心是否付费问题。</p>
+<h2 id="3-开发工具"><a href="#3-开发工具" class="headerlink" title="3.开发工具"></a>3.开发工具</h2><p>​        工欲善其事，必先利其器，学习Android开发必须要一款好的开发工具，这里我们将使用谷歌官方推荐的IDE工具Android Studio。据我所知，国内Android开发工程师大多使用Idea或者Android Studio，Android本身就算基于Idea开发的工具，但不同的是Idea功能更强大，但也收费。而Android Studio是完全免费，大家不用担心是否付费问题。</p>
 <p>​        关于Android Studio的下载我在这就不过多描述了，如何安装一个软件是一名程序员的基本技能，大家可能会在安装SDK的时候出现一点点问题，这些问题就需要你们自己去谷歌来解决了，相信你们都有解决问题的能力。</p>
 <p>在学习Android开发之前，需要你掌握Java的一点基础知识，不然学起来可能有点吃力。</p>
 
@@ -483,8 +483,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%AE%89%E5%8D%93%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80/">
-                                    <span class="chip bg-color">安卓开发基础</span>
+                                <a href="/tags/Android%E5%9F%BA%E7%A1%80/">
+                                    <span class="chip bg-color">Android基础</span>
                                 </a>
                             
                         </div>
@@ -631,6 +631,33 @@
             
         </div>
     </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: null,
+        id: '2020-11-26T22-12-35',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
 
     
 
